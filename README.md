@@ -54,15 +54,28 @@ Video : [More About CDK](https://youtu.be/bz4jTx4v-l8)
 
 ## AWS Services ?
 ***Some Popular AWS Services You Need To Know For AWS Certified Cloud Practitioner***
-### AWS IAM
-### AWS EC2
-### Amazon RDS
-### Amazon S3
-### Amazon CloudFront
-### Amazon VPC
-### Amazon SNS
-### Amazon Elastic Beanstalk
-### AWS Lambda
+## AWS IAM
+### What is IAM Role ?
+An IAM _role_ is an IAM identity that you can create in your account that has specific permissions. An IAM role is similar to an IAM user, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS. However, instead of being uniquely associated with one person, a role is intended to be assumable by anyone who needs it. Also, a role does not have standard long-term credentials such as a password or access keys associated with it. Instead, when you assume a role, it provides you with temporary security credentials for your role session. 
+Know More About IAM [Here]([https://aws.amazon.com/iam/features/](https://aws.amazon.com/iam/features/))
+## AWS EC2
+Amazon  [EC2](https://aws.amazon.com/ec2/)  (Elastic Compute Cloud), one of Amazon Web Services’ most well-known services, offers businesses the ability to run applications on the public cloud.
+
+### Is EC2 a Virtual Machine?
+
+Developers can create instances of virtual machines and easily configure the capacity scaling of instances using the EC2 web interface.
+
+### What is the Use of AWS EC2?
+
+EC2 also allows users to build apps to automate scaling according to changing needs and peak periods, and makes it simple to deploy virtual servers and manage storage, lessening the need to invest in hardware and helping streamline development processes.
+To Know About EC2 Visit [Here]([https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html))
+## Amazon RDS
+## Amazon S3
+## Amazon CloudFront
+## Amazon VPC
+## Amazon SNS
+## Amazon Elastic Beanstalk
+## AWS Lambda
 ### AWS Auto Scaling
 
 ## What is AWS Organizations ?
@@ -73,5 +86,6 @@ It offers policy-based management for multiple AWS accounts.
  2. Organizations provides you a policy framework for multiple AWS accounts. You can apply policies to a group of accounts or all the accounts in your organization.
  3. AWS Organizations enables you to set up a single payment method for all the AWS accounts in your organization through consolidated billing.With consolidated billing, you can see a combined view of charges incurred by all your accounts, as well as take advantage of pricing benefits from aggregated usage, such as volume discounts for EC2 and S3.
  4. AWS Organizations, like many other AWS services, is eventually consistent.. It achieves high availability by replicating data across multiple servers in AWS data centers within its region.
+
 
 
